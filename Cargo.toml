@@ -1,0 +1,13 @@
+[package]
+name = "lua-interpreter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytecode = "0.3.0"
+lex = "0.6.0"
+parse = "0.1.2"
+value = "0.1.1"
+vm = "0.1.0"
